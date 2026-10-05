@@ -1,0 +1,32 @@
+
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ocNavy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2b5c"/>
+      <stop offset="1" stop-color="#071d40"/>
+    </linearGradient>
+    <linearGradient id="ocOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="150" width="90" height="22" rx="11" fill="url(#ocOrange)"/>
+  <rect x="0" y="185" width="105" height="22" rx="11" fill="url(#ocOrange)"/>
+  <rect x="10" y="220" width="90" height="22" rx="11" fill="url(#ocOrange)"/>
+  <ellipse cx="200" cy="205" rx="105" ry="105" fill="url(#ocNavy)"/>
+  <ellipse cx="200" cy="205" rx="65" ry="65" fill="#ffffff"/>
+  <path d="M100 195 Q200 235 305 175" stroke="url(#ocOrange)" stroke-width="26"
+        fill="none" stroke-linecap="round"/>
+  <path d="M260 105 L290 105 L330 235 L370 235"
+        stroke="url(#ocNavy)" stroke-width="20" fill="none"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M315 160 L390 160 L375 220 L325 220 Z"
+        fill="none" stroke="url(#ocNavy)" stroke-width="16"
+        stroke-linejoin="round"/>
+  <rect x="335" y="175" width="42" height="9" rx="4.5" fill="url(#ocOrange)"/>
+  <rect x="335" y="192" width="42" height="9" rx="4.5" fill="url(#ocOrange)"/>
+  <circle cx="325" cy="265" r="16" fill="url(#ocNavy)"/>
+  <circle cx="325" cy="265" r="6" fill="#ffffff"/>
+  <circle cx="370" cy="265" r="16" fill="url(#ocNavy)"/>
+  <circle cx="370" cy="265" r="6" fill="#ffffff"/>
+</svg>
